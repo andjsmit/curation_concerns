@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in curation_concerns.gemspec
 gemspec
 
+gem 'hydra-pcdm', github:'projecthydra/hydra-pcdm', branch: 'master'
+gem 'active-fedora', '11.0.0.rc6'
+
 group :development, :test do
   gem 'simplecov', '~> 0.9', require: false
   gem 'coveralls', require: false

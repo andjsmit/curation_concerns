@@ -19,6 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'hydra-head', '>= 10.0.0', '< 11'
+  spec.add_dependency 'active-fedora', '>= 11.0.0.rc2'
+  spec.add_dependency 'hydra-derivatives', '>= 3.1.2'
   spec.add_dependency 'blacklight', '~> 6.3'
   spec.add_dependency 'breadcrumbs_on_rails', '>= 2.3', '< 4'
   spec.add_dependency 'jquery-ui-rails'
